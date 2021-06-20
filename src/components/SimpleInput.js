@@ -1,8 +1,8 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 
 import useInput from "../hooks/juse-input";
 
-const SimpleInput = (props) => {
+const SimpleInput = () => {
   const {
     value: enteredName,
     isValid: enteredNameIsValid,
